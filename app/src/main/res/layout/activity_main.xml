@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="lotô"
+        android:textColor="#03A9F4"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:hint="nhap vao so 1 "
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="20sp" />
+
+
+    <EditText
+
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:hint="nhap vao so 2 "
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit2"
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionDone"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionDone"
+        android:text="ADD range" />
+    <Button
+        android:imeOptions="actionDone"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:text="reset" />
+
+
+    <TextView
+
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
